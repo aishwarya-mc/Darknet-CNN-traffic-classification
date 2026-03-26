@@ -1,0 +1,18 @@
+{
+  "n_rows": 100472,
+  "n_features": 77,
+  "n_selected": 61,
+  "selection_method": "importance>0.001 (fallback top-61)",
+  "top_features": [
+    "Fwd Seg Size Min",
+    "Idle Max",
+    "Idle Mean",
+    "Protocol",
+    "Idle Min",
+    "FWD Init Win Bytes",
+    "FIN Flag Count",
+    "Bwd Packet Length Min",
+    "Subflow Fwd Packets",
+    "Bwd Init Win Bytes"
+  ]
+}

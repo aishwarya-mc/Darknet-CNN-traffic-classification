@@ -1,0 +1,54 @@
+{
+  "n_rows_total": 100472,
+  "n_selected_features": 61,
+  "grid_shape": [
+    8,
+    8,
+    1
+  ],
+  "X_train_shape": [
+    80377,
+    8,
+    8,
+    1
+  ],
+  "X_test_shape": [
+    20095,
+    8,
+    8,
+    1
+  ],
+  "y_train_shape": [
+    80377
+  ],
+  "y_test_shape": [
+    20095
+  ],
+  "label_mapping": {
+    "Non-Tor": 0,
+    "NonVPN": 1,
+    "Tor": 2,
+    "VPN": 3
+  },
+  "label_distribution_total": {
+    "0": 64352,
+    "1": 18040,
+    "2": 1179,
+    "3": 16901
+  },
+  "label_distribution_train": {
+    "0": 51481,
+    "1": 14432,
+    "2": 943,
+    "3": 13521
+  },
+  "label_distribution_test": {
+    "0": 12871,
+    "1": 3608,
+    "2": 236,
+    "3": 3380
+  },
+  "scaler_saved": "data\\preprocessing\\scaler.joblib",
+  "feature_to_cell_map": "data\\preprocessing\\feature_to_cell_map.json",
+  "note": "Values scaled to [0,255]. Unused grid cells set to 0."
+}

@@ -1,0 +1,12 @@
+{
+    "total_samples": 18080,
+    "label_distribution": {
+        "VPN": 16901,
+        "Tor": 1179
+    },
+    "num_features": 77,
+    "labels_used": [
+        "Tor",
+        "VPN"
+    ]
+}
